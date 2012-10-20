@@ -1,0 +1,194 @@
+h3 {
+  font-family: 'RobotoThin';
+  font-size: 14px;
+  color: #111111;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+.header {
+  background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/0/635.png');
+  background-repeat: repeat;
+  border-bottom: 1px solid #111;
+}
+
+.header > .container {
+  padding: 0px;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo-phone {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.logo-phone .pattrn {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.banner-phone {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.banner-phone .banner {
+  margin-bottom: 25px;
+}
+
+.gplay-phone {
+  text-align: center;
+}
+
+.gplay-phone .gplay {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.logo-tablet {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo-tablet > .pattrn {
+  margin-bottom: 20px;
+}
+
+.logo-tablet > .gplay {
+  margin-top: 40px;
+}
+
+.banner-tablet {
+  text-align: center;
+}
+
+.banner-tablet > .banner {
+  margin-bottom: 40px;
+}
+
+.gplay-tablet {
+  text-align: center;
+}
+
+.gplay-tablet .gplay {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.logo-desktop {
+  padding-top: 115px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.banner-desktop {
+  padding-top: 50px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.logo-desktop > .pattrn {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  .logo-desktop {
+    padding-top: 75px;
+    padding-bottom: 80px;
+  }
+
+  .logo-desktop > .pattrn {
+    margin-bottom: 40px;
+  }
+}
+
+.content-row {
+  margin: 40px 0px 40px 0px;
+}
+
+.features {
+  margin: 20px 0px 40px 0px;  
+}
+
+.feature {
+  padding: 10px;
+}
+
+.feature > p {
+  margin: 0px;
+}
+
+.testimonials {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #eee;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.testimonials-title {
+  text-align: center;
+}
+
+.testimonial {
+  padding: 10px;
+}
+
+.testimonial > p {
+  margin: 0px;
+}
+
+.testimonial > .quote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial > .source > a {
+  text-decoration: none;
+}
+
+.testimonial > .source > a:hover {
+  color: #333333;
+}
+
+.credits {
+  margin-top: 40px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social > a,
+.social > a:visited
+.social > a:active,
+.social > a:hover {
+  color: #333333;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social > a:last-child {
+  margin-right: 0px;
+}
+
+.social > a:hover {
+  color: #333333;
+}
+
+.social > a > img {
+  margin-right: 7px;
+}
+
+.footer {
+  text-align: center;
+}
