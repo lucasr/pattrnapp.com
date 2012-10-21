@@ -118,7 +118,8 @@ h3 {
 }
 
 .feature {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .feature > p {
@@ -134,12 +135,9 @@ h3 {
   padding-bottom: 10px;
 }
 
-.testimonials-title {
-  text-align: center;
-}
-
 .testimonial {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .testimonial > p {
